@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+	<!-- 마지막 생년월일체 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		/* 기본 글씨체 */
+		@font-face {
+			font-family: 'LeferiBaseType-RegularA';
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		/* 궁서체 */
+		@font-face {
+			font-family: 'MapoGoldenPier';
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'GowunBatang-Bold';
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+
+		body {
+			width: 1200px;
+			margin: 0 auto;
+			font-family: 'Nanum Gothic', sans-serif;
+		}
+
+		P {
+			text-align: center;
+			font-weigth: 700;
+			font-size: 36px;
+			letter-spacing: 8px;
+		}
+
+		div img {
+			width: 100%;
+			display: block;
+		}
+
+		#title {
+			font-family: 'MapoGoldenPier';
+			color: #c3b5a8;
+			font-weight: bold;
+		}
+
+
+		ul {
+			list-style-type: none;
+			position: fixed;
+			right: 5%;
+			bottom: 0;
+		}
+
+		ul li {
+			text-align: center;
+			padding: 5px 0;
+			margin-bottom: 10px;
+		}
+
+		ul li img {
+			width: 80%;
+			opacity: 80%;
+		}
+
+		.endding {
+			text-align: center;
+			height: 210px;
+			width: 100%;
+			padding: 10% 0 20%;
+
+		}
+
+		.endding p:nth-child(1) {
+			font-family: 'LeferiBaseType-RegularA';
+			font-size: 17px;
+			line-height: 40px;
+			color: #635e37;
+		}
+
+		.endding p:nth-child(1) span {
+			font-size: 60px;
+			font-family: 'MapoGoldenPier';
+			color: #565035;
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		.endding p:nth-child(2) {
+			font-family: 'GowunBatang-Bold';
+			font-size: 20px;
+			color: #635e37;
+			padding: 20px 0 35px;
+		}
+
+		.endding p:nth-child(2) span {
+			letter-spacing: 4px;
+			font-family: 'GowunBatang-Bold';
+
+		}
+
+		.endding p:nth-child(3) {
+			font-family: 'Special Elite', cursive;
+			letter-spacing: 0.5px;
+			font-weight: 100;
+			font-size: 17px;
+			color: #918d70;
+		}
+
+	</style>
+</head>
+
+<body>
+	<P id="title">BI/BX Design Guide</P>
+	<div><img src="img/bi_guide.jpg"></div>
+
+	<div class="endding">
+		<p><span>Thank You</span> <br>
+			끝까지 봐주셔서 감사합니다.</p>
+		<p>박영란<br>
+			<span>Park Young Ran</span>
+		</p>
+		<p>1999.12.01<br>
+			H.P 010-3494-1131<br>
+			E-Mail sasakiran@naver.com</p>
+	</div>
+
+	<ul class="btn">
+		<li><a href="#title"><img src="img/top.png" alt="top"></a></li>
+		<li><a href="../../index.html#branding" onclick="window.close()"><img src="img/back.png" alt="back"></a></li>
+		<!--  onclick="window.close()" 창닫기 효과 -->
+	</ul>
+</body>
+
+</html>
