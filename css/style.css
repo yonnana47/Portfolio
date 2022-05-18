@@ -931,12 +931,13 @@ Blog page
 
 
 .blog-content {
-	width: calc(100% - 138px);
+	width: calc(100% - 118px);
 	background: #fff;
 	padding: 55px 58px;
 	margin-top: -133px;
 	margin-left: 62px;
 	color: #83664b;
+	    border-radius: 60px;
 }
 
 
@@ -974,7 +975,7 @@ Blog page
 .blog-meta a{
 	font-family: 'LeferiBaseType-RegularA';
 	display:block;
-	padding:10px 20px;
+	padding:10px 25px;
 	color: #a98769;
 }
 
@@ -1238,7 +1239,7 @@ Responsive
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 .header-section{
-    padding: 80px 0px 0 289px;
+	padding: 70px 0px 0 396px;
 }  /* 포트폴리오 제목 */
 
 .main-sidebar .mb-warp{
@@ -1424,33 +1425,8 @@ Responsive
 
 @media only screen and (max-width: 479px) {
 .header-section{
-    padding: 55px 0px 0 67px;
+	padding: 55px 0px 0 87px;
 }  /* 포트폴리오 제목 */
-
-.about-info ul li {
-    padding: 10px 10px 10px 0;
-}
-
-.about-info .web_icon {
-    padding: 11px 0px 10px 36px;
-}
-
-.mbti_img{
-	margin-left: -22px;
-}
-
-.h_icon p {
-    width: 240px;
-}
-
-.word {
-    padding: 0px 0px 0 10px;
-}
-/* 아이콘 */
-/*내가 수정한 부분 */
-
-
-
 
 	.site-logo {
 		margin-bottom: 50px;
