@@ -916,7 +916,7 @@ Blog page
 	background: #fff;
 	width: 145px;
 	height: 84px;
-	padding-top: 35px;
+	padding-top: 25px;
     padding-left: 20px;
 	overflow: hidden;
 }
@@ -932,11 +932,12 @@ Blog page
 
 .blog-content {
 	width: calc(100% - 138px);
-	background: #fff;
-	padding: 55px 58px;
-	margin-top: -133px;
-	margin-left: 62px;
-	color: #83664b;
+    background: #fff;
+	padding: 60px 60px;
+    margin-top: -133px;
+    border-radius: 70px;
+    margin-left: 62px;
+    color: #83664b;
 }
 
 
@@ -1426,6 +1427,10 @@ Responsive
 .header-section{
 	padding: 55px 0px 0 87px;
 }  /* 포트폴리오 제목 */
+
+.h_icon p {
+    width: 248px;
+}
 
 	.site-logo {
 		margin-bottom: 50px;
